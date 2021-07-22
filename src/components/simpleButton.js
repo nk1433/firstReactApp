@@ -4,9 +4,9 @@ import context from '../core/context';
 
 const SimpleButton = () =>
 	<button
-		onClick={ () => context.actions.increaseCount(config.increment) }
+		onClick={ () => context.actions.increaseCountOne(config.increment) }
 	>
-		Click Me!
+		+1
 	</button>;
 
 export default SimpleButton;
